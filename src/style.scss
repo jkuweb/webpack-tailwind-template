@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(242 242 242);
+}
+
+main {
+  display: grid;
+  align-content: start;
+}
+
+.background {
+  padding-top: 3rem;
+
+  font-size: 72px;
+
+  background: linear-gradient(to right, #5dbaf8, #009afe);
+  background: hsl(210deg 96% 46%);
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.container {
+  display: grid;
+  grid-gap: 3rem;
+  place-items: center;
+
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+.title {
+  font-size: 2rem;
+}
